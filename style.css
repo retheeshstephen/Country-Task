@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.wrapper{
+    background-image: url(https://wallpapers.com/images/featured/travel-ibk7fgrvtvhs7qzg.jpg); 
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: 1000px;
+}
+
+#cart{
+    width: 50%;
+    height: 40%;
+    margin-top: 3%;
+    background:transparent;
+    border-radius: 15px;
+    box-shadow: #000 0px 11px 15px 0px;
+}
+
+.h1{
+    text-align: center; 
+    color: black;
+}
+.card{
+    box-shadow: #000 0px 11px 15px 0px;
+    margin: 10px;
+   
+}
+.card1{
+    box-shadow: #000 0px 11px 15px 0px;
+    margin: 10px;
+}
+
+#div2{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+@media only screen and (max-width: 400px) {
+    .wrapper {
+        margin-top: 0%;
+        background-size: contain; 
+        height: 110vh; 
+    }
+
+    #div2{
+      flex-direction: column;
+    }
+
+    #cart {
+        width:100%;
+        margin-top: -7%;
+    }
+    .card{
+       margin:17px ;
+    }
+    .card1{
+        margin:17px ;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
